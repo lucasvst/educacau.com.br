@@ -13,15 +13,13 @@ export default function Home () {
       <main>
         <h1 className="visually-hidden">Educacau</h1>
 
-        <div className="b-example-divider"></div>
+        {/* <div className="b-example-divider"></div> */}
 
         <ScreenshotSection />
 
         <PricingSection />
 
         <LeadSection />
-
-        <div className="b-example-divider"></div>
 
       </main>
 

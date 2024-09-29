@@ -1,13 +1,14 @@
 export default function Screenshot () {
   return (
     <div className="px-4 pt-5 my-5 text-center border-bottom">
-      <h1 className="display-4 fw-bold">Educação na palma da mão</h1>
+      <h1 className="display-4 mb-5 fw-bold">Educação na palma da mão</h1>
       <div className="col-lg-6 mx-auto">
-        <p className="lead mb-4">
-          Dê um salto de produtividade com o Educacau. Nossa plataforma inteligente
-          conecta você ao mundo do cacau, oferecendo informações precisas e
-          atualizadas sobre as melhores práticas de cultivo, pragas,
-          doenças e muito mais.
+        <p className="lead mb-5">
+          Quantas vezes você já teve que resolver um problema na sua lavoura sozinho,
+          sem saber se tomou a melhor decisão? O seu sofrimento acaba agora!
+          Tenha um técnico virtual à sua disposição 24 horas por dia.
+          Suas dúvidas agora terão respostas rápidas e diretas.
+          E o melhor? Tudo na palma da sua mão, direto no seu WhatsApp.
         </p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
           <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Tenho interesse</button>
