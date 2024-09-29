@@ -5,7 +5,7 @@ const postForm = async (form: any) => {
 
   const formData = new FormData(form)
 
-  await fetch("https://us-central1-educacau-ae429.cloudfunctions.net/ext-http-export-sheets-saveRecord", {
+  await fetch("https://us-east1-educacau-ae429.cloudfunctions.net/ext-http-export-sheets-saveRecord", {
     method: "POST",
     headers: {
       Accept: 'application/json',
