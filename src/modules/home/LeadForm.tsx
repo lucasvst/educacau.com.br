@@ -1,10 +1,20 @@
 import { useState } from "react"
 import { Button, Form } from "react-bootstrap"
 
-const postForm = (form: any) => {
-  fetch("url", {
+const postForm = async (form: any) => {
+
+  const formData = new FormData(form)
+
+  await fetch("https://us-central1-educacau-ae429.cloudfunctions.net/ext-http-export-sheets-saveRecord", {
     method: "POST",
-    body: form,
+    headers: {
+      Accept: 'application/json',
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      "name": formData.get("name"),
+      "phone": formData.get("phone"),
+    }),
   })
 }
 
@@ -13,13 +23,17 @@ export function LeadForm () {
   const [validated, setValidated] = useState(false)
 
   const handleSubmit = (event: any) => {
+
+    event.preventDefault()
+    event.stopPropagation()
+
     const form = event.currentTarget
-    if (form.checkValidity() === false) {
-      event.preventDefault()
-      event.stopPropagation()
-    }
+
+    if (form.checkValidity() === false) { return }
 
     setValidated(true)
+
+    postForm(form)
   }
   return (
     <Form noValidate validated={validated} onSubmit={handleSubmit}>
@@ -28,6 +42,7 @@ export function LeadForm () {
         <Form.Label>Nome</Form.Label>
         <Form.Control
           type="text"
+          name="name"
           placeholder="Digite seu nome"
           required
         />
@@ -40,6 +55,7 @@ export function LeadForm () {
         <Form.Label>Telefone</Form.Label>
         <Form.Control
           type="tel"
+          name="phone"
           placeholder="Digite seu telefone"
           required
         />
