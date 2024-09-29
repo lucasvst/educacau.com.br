@@ -8,7 +8,7 @@ export default function PricingSection () {
         <div className="col">
           <div className="card mb-4 rounded-3 shadow-sm">
             <div className="card-header py-3">
-              <h4 className="my-0 fw-normal">Mensal</h4>
+              <h4 className="my-0 fw-normal">Semestral</h4>
             </div>
             <div className="card-body">
               <h1 className="card-title pricing-card-title">R$399,90<small className="text-muted fw-light">/mês</small></h1>
