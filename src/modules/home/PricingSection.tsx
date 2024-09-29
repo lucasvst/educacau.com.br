@@ -11,7 +11,7 @@ export default function PricingSection () {
               <h4 className="my-0 fw-normal">Mensal</h4>
             </div>
             <div className="card-body">
-              <h1 className="card-title pricing-card-title">R$149,90<small className="text-muted fw-light">/mês</small></h1>
+              <h1 className="card-title pricing-card-title">R$399,90<small className="text-muted fw-light">/mês</small></h1>
             </div>
           </div>
         </div>
@@ -21,10 +21,9 @@ export default function PricingSection () {
               <h4 className="my-0 fw-normal">Anual</h4>
             </div>
             <div className="card-body position-relative">
-              <h1 className="card-title pricing-card-title">R$129,90<small className="text-muted fw-light">/mês</small></h1>
+              <h1 className="card-title pricing-card-title">R$349,90<small className="text-muted fw-light">/mês</small></h1>
               <span className="position-absolute top-0 start-90 translate-middle badge rounded-pill bg-danger">
-                13% de desconto
-              <span className="visually-hidden">unread messages</span>
+                12,5% de desconto
             </span>
             </div>
           </div>
