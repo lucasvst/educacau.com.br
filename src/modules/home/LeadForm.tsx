@@ -62,6 +62,16 @@ export function LeadForm () {
     )
   }
 
+  if (isLoading) {
+    return (
+      <FormWrapper>
+        <div className="spinner-border" role="status">
+          <span className="visually-hidden">Enviando...</span>
+        </div>
+      </FormWrapper>
+    )
+  }
+
   return (
     <FormWrapper>
       <Form
