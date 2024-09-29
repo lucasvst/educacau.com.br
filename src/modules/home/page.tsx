@@ -3,9 +3,6 @@
 import ScreenshotSection from "./ScreenshotSection"
 import LeadSection from "./LeadSection"
 
-import { LeadForm } from "./LeadForm"
-import { LeadText } from "./LeadText"
-
 import "./page.css"
 import PricingSection from "./PricingSection"
 
