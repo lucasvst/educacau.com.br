@@ -14,6 +14,7 @@ const postForm = async (form: any) => {
     body: JSON.stringify({
       "name": formData.get("name"),
       "phone": formData.get("phone"),
+      "datetime": new Date(),
     }),
   })
 }
