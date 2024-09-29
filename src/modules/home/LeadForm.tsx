@@ -116,7 +116,7 @@ export function LeadForm () {
         </Button>
 
         <hr className="my-4" />
-        <small className="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+        <small className="text-muted">Um especialista entrará em contato com você por esse número de WhatsApp.</small>
 
       </Form>
     </FormWrapper>
