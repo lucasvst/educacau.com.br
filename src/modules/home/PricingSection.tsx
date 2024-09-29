@@ -1,6 +1,6 @@
 export default function PricingSection () {
   return (
-    <div className="container col-xl-10 col-xxl-8 px-4 pt-5">
+    <div className="container col-xl-10 col-xxl-8 px-4 pt-3">
       <div className="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h1 className="display-4 fw-normal">Investimento</h1>
       </div>

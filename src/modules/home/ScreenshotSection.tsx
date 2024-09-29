@@ -1,6 +1,6 @@
 export default function Screenshot () {
   return (
-    <div className="px-4 pt-5 my-5 text-center border-bottom">
+    <div className="px-4 pt-5 text-center border-bottom">
       <h1 className="display-4 mb-5 fw-bold">Educação na palma da mão</h1>
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-5">
