@@ -11,7 +11,10 @@ export default function Screenshot () {
           E o melhor? Tudo na palma da sua mão, direto no seu WhatsApp.
         </p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-          <button type="button" className="btn btn-primary btn-lg px-4 me-sm-3">Tenho interesse</button>
+          <a
+            href="#leadForm"
+            className="btn btn-primary btn-lg px-4 me-sm-3"
+          >Tenho interesse</a>
         </div>
       </div>
       <div className="overflow-hidden" style={{ maxHeight: "30vh" }}>

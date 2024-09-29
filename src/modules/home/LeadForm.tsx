@@ -20,7 +20,7 @@ const postForm = async (form: any) => {
 
 const FormWrapper = (props: PropsWithChildren) => {
   return (
-    <div className="p-4 p-md-5 border rounded-3 bg-light">{ props.children }</div>
+    <div id="leadForm" className="p-4 p-md-5 border rounded-3 bg-light">{ props.children }</div>
   )
 }
 
