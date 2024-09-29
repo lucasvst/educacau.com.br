@@ -29,7 +29,7 @@ export function LeadForm () {
   const [validated, setValidated] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [formSent, setFormSent] = useState(false)
-  const [hasError, setHasError] = useState(false)
+  // const [hasError, setHasError] = useState(false)
 
   const handleSubmit = async (event: any) => {
 
